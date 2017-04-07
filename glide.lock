@@ -1,12 +1,12 @@
-hash: bff1929bc149df270f1043d265e2c996a4dc477d26c4f77d52d4b200a3afebab
-updated: 2017-04-06T20:19:32.75102473-07:00
+hash: 31c59b4f6c8039dacae5f997494927f5b6e57eaa4b87131cfb05b08037b572f1
+updated: 2017-04-07T16:09:06.230534586-07:00
 imports:
 - name: github.com/apex/log
-  version: 8eba30e442954605fd2e1a542912d5b5e16cab13
+  version: a97903d8456938a31ce3cb7d58ad3f378f951f24
   subpackages:
   - handlers/json
 - name: github.com/aws/aws-sdk-go
-  version: 0c5b3da2c1c20d581b18b71b19e924cf433a19c9
+  version: 5b94aa6e6f14126d01fd9e8dcb44aed80512d4a3
   subpackages:
   - aws
   - aws/awserr
@@ -20,10 +20,10 @@ imports:
   - aws/credentials/stscreds
   - aws/defaults
   - aws/ec2metadata
+  - aws/endpoints
   - aws/request
   - aws/session
   - aws/signer/v4
-  - private/endpoints
   - private/protocol
   - private/protocol/json/jsonutil
   - private/protocol/jsonrpc
@@ -31,7 +31,6 @@ imports:
   - private/protocol/query/queryutil
   - private/protocol/rest
   - private/protocol/xml/xmlutil
-  - private/waiter
   - service/dynamodb
   - service/dynamodb/dynamodbattribute
   - service/dynamodb/dynamodbiface
@@ -39,18 +38,19 @@ imports:
   - service/kms/kmsiface
   - service/sts
 - name: github.com/Clever/stealth
-  version: 9ee507f610637a0ffbce01970bd1ffa4cfd0af2c
-  repo: https://github.com/dfuentes/stealth.git
+  version: f8a260b7d48754f2da5de8787e52ff9ae3bfeacb
   subpackages:
   - store
 - name: github.com/Clever/unicreds
   version: 8ddef5f30943fe4a9c59fa3cc1339e8cb8a54df2
 - name: github.com/go-ini/ini
-  version: a2610b3a793cfa7fdf0b07038068af5ddc12aba1
+  version: e7fea39b01aea8d5671f6858f0532f56e8bff3a5
 - name: github.com/jmespath/go-jmespath
   version: bd40a432e4c76585ef6b72d3fd96fb9b6dc7b68d
 - name: github.com/mattn/go-runewidth
-  version: d6bea18f789704b5f83375793155289da36a3c7f
+  version: 14207d285c6c197daabb5c9793d63e7af9ab2d50
 - name: github.com/olekukonko/tablewriter
-  version: daf2955e742cf123959884fdff4685aa79b63135
+  version: febf2d34b54a69ce7530036c7503b1c9fbfdf0bb
+- name: github.com/pkg/errors
+  version: ff09b135c25aae272398c51a07235b90a75aa4f0
 testImports: []

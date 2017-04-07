@@ -5,4 +5,4 @@ export SERVICE=test-service
 
 $(./bootstrap)
 
-env | grep SECRET
+env | grep _SECRET
