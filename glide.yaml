@@ -1,0 +1,7 @@
+package: github.com/dfuentes/secrets-demo
+import:
+- package: github.com/Clever/stealth
+  subpackages:
+  - store
+  repo: https://github.com/dfuentes/stealth.git
+  version: 9ee507f610637a0ffbce01970bd1ffa4cfd0af2c
