@@ -1,3 +1,6 @@
+stealth:
+	@go get github.com/Clever/stealth
+
 build:
 	@go build -o bootstrap
 
